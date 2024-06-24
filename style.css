@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(24,24,35,255);
+}
+
+header{
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.Tag_line{
+    height: 26.4px;
+    width: 1472.8px;
+    text-align: center;
+    top: 0;
+    position: sticky;
+    background-color: rgb(140, 0, 255);
+    z-index: 1;
+}
+
+.Tag_line b{
+    color: white;
+    font-size: larger;
+    background-color: rgb(140, 0, 255);
+}
+
+header ol{
+    display: flex;
+    justify-content:space-between;
+}
+
+header ol li{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.logo div{
+    height: 120px;
+}
+
+.logo div img{
+    background-color: black;
+    height: 120px;
+    padding: 0px 100px 0px 200px;
+}
+
+.logo{
+    background-color: black;
+}
+
+.option{
+    padding-right: 25px;
+}
+
+.option div a{
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    border: none;
+    height: 75px;
+    padding: 5px;
+    cursor: pointer;
+    font-style:oblique;
+}
+
+.option div a:hover{
+    background-color: rgb(140, 0, 255);
+    color: white;
+    font-size: larger;
+    border: none;
+    height: 75px;
+    padding: 5px;
+    cursor: pointer;
+    font-style:oblique;
+}
+
+.plofile_img{
+    height: 600px;
+    display: flex;
+}
+
+.plofile_img div img{
+    height: 600px;
+    background:url(./assest/background.png);
+    padding:  0px 50px 0px 50px;
+
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.playwrite-fr-trad {
+  font-family: "Playwrite FR Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.about{
+    margin: 25px;
+    display: flex;
+}
+
+.about div, .detail{
+    flex-direction: column;
+    background-color: black;
+    padding: 10px 25px 10px 25px;
+}
+
+.abo{
+    color: white;
+    align-items: center;
+    font-size: larger;
+    opacity: 80%;
+    text-align: center;
+}
+
+.pot{
+    display: grid;
+    grid-template-columns:[fst] 251px [sec] 251px [th];
+    grid-template-rows: 52px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    height: 50px;
+    width: 250px;
+    background-image: url(./assest/background.png);
+    border: 2px white dashed;
+    padding-top: 25px;
+}
+
+.potfolio{
+    background-color: black;
+    padding: 10px 25px 10px 25px;
+    margin:  0px 75px 0px 75px;
+}
+
+.potfolio div{
+    background-color: black;
+}
+
+footer{
+    background-color: rgb(25, 39, 51);
+    padding: 35px;
+    margin-top: 25px;
+    color: white;
+}
+
+.data{
+    background-color: rgb(25, 39, 51);
+}
+
+.data ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(25, 39, 51);
+    padding-left: 25px;
+}
+
+.data ol li{
+    height: 25px;
+    background-color: rgb(25, 39, 51);
+}
+
+.svg{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(25, 39, 51);
+}
+
+.list{
+    opacity: 70%;
+}
+
+.more, .detail{
+    width: 50%;
+    text-align: center;
+}
+
+.about-button{
+    color: white;
+    background-color: blue;
+    font-size: larger;
+    border: none;
+    padding: 5px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.about-button:hover{
+    color: white;
+    background-color: rgb(140, 0, 255);
+    font-size: larger;
+    border: none;
+    padding: 5px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(37, 37, 37);
+    opacity: 50%;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(107, 106, 106);
+    
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(67, 67, 67);
+    
+}
+
+.blog{
+    background-color: black;
+    margin: 25px 75px;
+    padding: 15px;
+    z-index: 1;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card2, .card3, .card4{
+    margin: 0px 20px;
+}
+
+.blog_photo img{
+    width: 300px;
+    height: 150px;
+}
+
+.blog_heading{
+    color: white;
+}
+
+.blog_description{
+    color: white;
+    opacity: 50%;
+}
+
+.blog_button{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 0px 5px;
+    margin: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.blog_button:hover{
+    background-color: rgb(140, 0, 255);
+    text-align: center;
+    color: white;
+    padding: 0px 5px;
+    margin: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.created{
+    color: white;
+}
+
+.add_img{
+    display: grid;
+    grid-template-columns: [fst] 251px [sec] 251px [th];
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
